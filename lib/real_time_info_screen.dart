@@ -29,7 +29,7 @@ class _RealTimeInfoScreenState extends State<RealTimeInfoScreen> {
   bool isNewsView = false; // 뉴스 화면인지 여부를 나타내는 변수
 
   String newsApiKey =
-      "50238975751242ada9d352765526d317"; // NewsAPI 키를 여기에 추가하세요
+      "your_api_key"; // NewsAPI 키를 여기에 추가하세요
   List<dynamic> newsArticles = []; // 뉴스를 저장할 리스트
 
   // 한국어 지역 이름을 영어 이름으로 매핑하는 맵
@@ -62,7 +62,7 @@ class _RealTimeInfoScreenState extends State<RealTimeInfoScreen> {
   }
 
   Future<void> fetchWeatherData() async {
-    String apiKey = "35d9fc28c738690f487d517773d97482";
+    String apiKey = "your_api_key";
     String apiUrl =
         "https://api.openweathermap.org/data/2.5/weather?q=Seoul&units=metric&appid=$apiKey";
 
@@ -87,7 +87,7 @@ class _RealTimeInfoScreenState extends State<RealTimeInfoScreen> {
   }
 
   Future<void> fetchAirQualityData() async {
-    String apiKey = "35d9fc28c738690f487d517773d97482";
+    String apiKey = "your_api_key";
     String apiUrl =
         "https://api.openweathermap.org/data/2.5/air_pollution?lat=37.5665&lon=126.9780&appid=$apiKey";
 
@@ -108,7 +108,7 @@ class _RealTimeInfoScreenState extends State<RealTimeInfoScreen> {
   }
 
   Future<void> fetchRegionWeatherData(String region) async {
-    String apiKey = "35d9fc28c738690f487d517773d97482";
+    String apiKey = "your_api_key";
     String regionEnglishName =
         regionNameMapping[region] ?? region; // 지역 이름을 영어로 변환
     String encodedRegion = Uri.encodeComponent(regionEnglishName);
