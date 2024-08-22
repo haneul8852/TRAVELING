@@ -4,16 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This app introduces travel itineraries for those who want to go on a spontaneous trip without planning and for those who find it difficult to plan. By offering travel courses tailored to individual preferences, it enhances the overall satisfaction of the trip.
 
 ### A site to document collaboration
 
